@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from 'react';
 import "./style.css"
 import outlook from "./assets/outlook.png"
 import guestpic from "./assets/guest.png"
@@ -6,10 +6,31 @@ import profilepic from "./assets/profile.png"
 
 import logoone from "./assets/logo1.png"
 
+// import particleani from "./particles.js"
+ 
+
 
 
 
 function Loginpage() {
+
+    //Adding external script files for jsx like animations script using useeffect...
+
+    // useEffect(() => {
+        
+    //     const script = document.createElement('script');
+    //     script.src = {particleani};
+    //     script.async = true;
+    //     document.body.appendChild(script);
+
+        
+        
+
+    //   }, []); 
+
+
+
+
   return (
     <>
         <div id="circle1" class="circle"></div>
@@ -39,10 +60,10 @@ function Loginpage() {
 
 
     </div>
-    <script src="./particles.js"></script>
+    {/* <script src="./particles.js"></script>
     <script src="./appy.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./script.js"></script>
+    <script src="./script.js"></script> */}
       
     </>
 
