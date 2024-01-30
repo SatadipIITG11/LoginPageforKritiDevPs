@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+  .red{
+    height: 100vh;
+    width: 50%;
+    background-color: white;
+    /* color: #61dafb; */
+  }
+
+  .green{
+    height: 100vh;
+    width: 50%;
+    /* background-color: green; */
+  }
+  .Description{
+
+    height: 90px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: #035f79;
+  }
+
+  .des{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #035f79;
+  }

@@ -1,24 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import Loginpage from './loginpage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className='red'>
+      <h1 className='des'>DESCRIPTION</h1>
+
+      <p className='Description'>Welcome to our website where you guys can collaborate with each other 
+        you can also share your github handles.
+        This website is build by team Kapili IIT Guwahati </p>
     </div>
+    <div className='green'>
+      <Loginpage/>
+    </div>
+    </>
   );
 }
 
